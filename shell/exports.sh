@@ -27,25 +27,26 @@ export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
 # ------------------------------------------------------------------------------
 # Path - The higher it is, the more priority it has
 # ------------------------------------------------------------------------------
-# This code is commented because it breaks the PATH variable
-#path=(
-#	"$HOME/bin"
-#	"$DOTLY_PATH/bin"
-#	"$DOTFILES_PATH/bin"
-#	"$JAVA_HOME/bin"
-#	"$GEM_HOME/bin"
-#	"$GOPATH/bin"
-#	"$HOME/.cargo/bin"
-#	"/usr/local/opt/ruby/bin"
-#	"/usr/local/opt/python/libexec/bin"
-#	"/opt/homebrew/bin"
-#	"/usr/local/bin"
-#	"/usr/local/sbin"
-#	"/bin"
-#	"/usr/bin"
-#	"/usr/sbin"
-#	"/sbin"
-#	"$path"
-#)
-#
-#export path
+path=(
+	"$HOME/bin"
+	"$DOTLY_PATH/bin"
+	"$DOTFILES_PATH/bin"
+	"$JAVA_HOME/bin"
+	"$GEM_HOME/bin"
+	"$GOPATH/bin"
+	"$HOME/.cargo/bin"
+	"/usr/local/opt/ruby/bin"
+	"/usr/local/opt/python/libexec/bin"
+	"/opt/homebrew/bin"
+	"/usr/local/bin"
+	"/usr/local/sbin"
+	"/bin"
+	"/usr/bin"
+	"/usr/sbin"
+	"/sbin"
+	"$path"
+)
+
+path=${path[*]} | sed 's| /|:/|g'
+
+export path
