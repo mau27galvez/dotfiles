@@ -11,6 +11,7 @@ export CODELY_THEME_PWD_MODE="short" # full, short, home_relative
 # ------------------------------------------------------------------------------
 export JAVA_HOME='/Library/Java/JavaVirtualMachines/amazon-corretto-15.jdk/Contents/Home'
 export GEM_HOME="$HOME/.gem"
+export GOROOT="/usr/local/go"
 export GOPATH="$HOME/.go"
 
 # ------------------------------------------------------------------------------
@@ -33,7 +34,8 @@ path=(
 	"$DOTFILES_PATH/bin"
 	"$JAVA_HOME/bin"
 	"$GEM_HOME/bin"
-	"$GOPATH/bin"
+	"$GOPATH"
+	"$GOROOT/bin"
 	"$HOME/.cargo/bin"
 	"/usr/local/opt/ruby/bin"
 	"/usr/local/opt/python/libexec/bin"
