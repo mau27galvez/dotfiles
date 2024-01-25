@@ -12,7 +12,12 @@ export CODELY_THEME_PWD_MODE="short" # full, short, home_relative
 export JAVA_HOME='/Library/Java/JavaVirtualMachines/amazon-corretto-15.jdk/Contents/Home'
 export GEM_HOME="$HOME/.gem"
 export GOROOT="/usr/local/go"
+
+# ------------------------------------------------------------------------------
+# Others
+# ------------------------------------------------------------------------------
 export ASDF_DIR="$HOME/.asdf"
+export ASDF_DEFAULT_TOOL_VERSIONS_FILENAME="$DOTFILES_PATH/shell/.tool-versions"
 
 # ------------------------------------------------------------------------------
 # Apps
