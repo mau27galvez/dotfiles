@@ -31,3 +31,10 @@ source "$DOTFILES_PATH/shell/zsh/key-bindings.zsh"
 
 # explicitly declare the path to VSCode bin
 export PATH="$PATH:/mnt/c/Users/mau2m/AppData/Local/Programs/Microsoft VS Code/bin"
+
+# bun completions
+[ -s "/home/mau27galvez/.bun/_bun" ] && source "/home/mau27galvez/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

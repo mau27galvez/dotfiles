@@ -18,6 +18,7 @@ export GOROOT="/usr/local/go"
 # ------------------------------------------------------------------------------
 export ASDF_DIR="$HOME/.asdf"
 export ASDF_DEFAULT_TOOL_VERSIONS_FILENAME="$DOTFILES_PATH/shell/.tool-versions"
+export FLYCTL_INSTALL="/home/mau27galvez/.fly"
 
 # ------------------------------------------------------------------------------
 # Apps
@@ -50,6 +51,7 @@ path=(
 	"/usr/bin"
 	"/usr/sbin"
 	"/sbin"
+	"$FLYCTL_INSTALL/bin"
 	"$path"
 )
 
