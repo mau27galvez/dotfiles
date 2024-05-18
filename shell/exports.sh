@@ -31,6 +31,10 @@ fi
 
 export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
 
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
+
 # ------------------------------------------------------------------------------
 # Path - The higher it is, the more priority it has
 # ------------------------------------------------------------------------------
