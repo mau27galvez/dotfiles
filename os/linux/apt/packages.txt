@@ -17,6 +17,7 @@ gzip
 hostname
 init
 inotify-tools
+jq
 libdebconfclient0
 libfuse2
 libncurses5-dev
@@ -29,6 +30,9 @@ ncurses-bin
 ngrok
 nodejs
 openssl
+php-sqlite3
+php8.3
+php8.3-xml
 sysvinit-utils
 tree
 ubuntu-minimal
