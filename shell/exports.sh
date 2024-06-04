@@ -46,6 +46,7 @@ path=(
 	"$GEM_HOME/bin"
 	"$GOROOT/bin"
 	"$HOME/.cargo/bin"
+	"$HOME/.local/bin"
 	"/usr/local/opt/ruby/bin"
 	"/usr/local/opt/python/libexec/bin"
 	"/opt/homebrew/bin"
