@@ -27,7 +27,6 @@ login
 nautilus
 ncurses-base
 ncurses-bin
-ngrok
 nodejs
 openssl
 php-sqlite3
