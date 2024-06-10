@@ -38,3 +38,17 @@ export PATH="$PATH:/mnt/c/Users/mau2m/AppData/Local/Programs/Microsoft VS Code/b
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# fnm
+FNM_PATH="/home/mau27galvez/.local/share/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="/home/mau27galvez/.local/share/fnm:$PATH"
+  eval "`fnm env`"
+fi
+
+# fnm
+FNM_PATH="/home/mau27galvez/.local/share/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="/home/mau27galvez/.local/share/fnm:$PATH"
+  eval "`fnm env`"
+fi
