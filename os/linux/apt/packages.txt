@@ -15,9 +15,11 @@ gnupg
 grep
 gzip
 hostname
+hyperfine
 init
 inotify-tools
 jq
+libapache2-mod-fcgid
 libdebconfclient0
 libfuse2
 libncurses5-dev
@@ -31,7 +33,9 @@ nodejs
 openssl
 php-sqlite3
 php8.3
+php8.3-fpm
 php8.3-xml
+shfmt
 sysvinit-utils
 tree
 ubuntu-minimal
